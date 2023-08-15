@@ -5,3 +5,6 @@ node_modules/
 
 # Serverless directories
 .serverless
+
+# Artifacts
+my-artifact/
