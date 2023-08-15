@@ -5,8 +5,9 @@ phases:
     on-failure: ABORT
     runtime-versions:
       nodejs: 18.x
-    commands: echo Installing serverless CLI
-      - npm i -g serverless
+    commands:
+      - echo Installing serverless CLI
+      - npm install -g serverless
       - echo Install npm dependencies of notes service
       - npm install
 
