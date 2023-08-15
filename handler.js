@@ -121,3 +121,5 @@ module.exports.getAllNotes = async (event, context, cb) => {
     return send(500, error?.message);
   }
 };
+
+// Add
